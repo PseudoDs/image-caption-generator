@@ -1,0 +1,4 @@
+transformers==4.39.3
+torch>=1.13.0
+Pillow
+tk
