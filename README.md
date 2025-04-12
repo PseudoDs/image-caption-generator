@@ -7,7 +7,7 @@ An AI-powered desktop application that generates descriptive captions for images
 ## ✨ Features
 
 - 📷 Upload any image (`.jpg`, `.png`)
-- 🧠 Generates captions using `ViT-GPT2` from Hugging Face Transformers
+- 🧠 Generates captions using `ViT-GPT2`(https://huggingface.co/nlpconnect/vit-gpt2-image-captioning) from Hugging Face Transformers
 - 🪟 Simple and clean Tkinter GUI
 - ⚡ Runs completely offline after dependencies are installed
 - 📋 One-click copy to clipboard
@@ -78,8 +78,19 @@ pyinstaller caption_gui.py --onefile --noconsole
 ```
 
 
-🧠 Model Info
-Uses ViT-GPT2 Image Captioning from Hugging Face 🤗
+
+🤖 Model Information
+📦 nlpconnect/vit-gpt2-image-captioning
+
+Combines a Vision Transformer (ViT) encoder with a GPT-2 decoder for sequence generation
+
+Source: Hugging Face Model Card
+
+
+📸 Sample Outputs
+Input Image	Generated Caption
+🐶 Dog_demo.png :	A small dog laying on the floor looking at the camera
+👨 Man_demo.png :	A man in a black shirt sitting on a park bench
 
 
 
