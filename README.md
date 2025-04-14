@@ -103,4 +103,4 @@ Input Image	Generated Caption
 
 
 💖 Made with love by Daisy and Deepika ☕✨
-“A picture is worth a thousand words, but sometimes it needs help finding them.”
+“ A picture is worth a thousand words, but sometimes it needs help finding them.”
